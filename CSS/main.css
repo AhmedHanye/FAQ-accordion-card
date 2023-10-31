@@ -119,7 +119,7 @@ body {
   color: var(--soft-red);
 }
 .bold {
-  /* style for making the question bold when it is hoverd */
+  /* style for making the question bold when it is Opend */
   font-weight: 700;
 }
 .arrow {
@@ -137,7 +137,7 @@ body {
   overflow: hidden;
   color: var(--dark-grayish-blue);
   line-height: 1.2rem;
-  transition: 0.2s all ease-in-out;
+  transition: 0.3s all;
 }
 .open {
   /* style for the answer when it is opened */

@@ -85,18 +85,20 @@ body {
   text-align: left;
 }
 #attribution {
-  position: absolute;
+  position: fixed;
   bottom: 1rem;
 }
 #attribution > a {
   display: inline-block;
-  color: var(--soft-red);
+  color: var(--light-grayish-blue);
   text-decoration: none;
   margin: 0 0.2rem;
+  font-size: 14px;
   transition: all 0.2s;
 }
 #attribution > a:hover {
   transform: translateY(-3px);
+  color: var(--soft-red);
 }
 /* Global Classes */
 .flex1 {

@@ -44,6 +44,7 @@ body {
   width: 56rem;
   height: 31rem;
   background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 15px;
   border-radius: 1.5rem;
   position: relative;
 }
@@ -65,7 +66,7 @@ body {
 }
 #main-container > #box-image {
   position: absolute;
-  left: -8.2rem;
+  left: -6.5rem;
   bottom: 7.2rem;
   z-index: 2;
 }
